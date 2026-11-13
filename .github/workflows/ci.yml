@@ -62,7 +62,8 @@ jobs:
       - run: npm install --global npm@11
       - run: npm ci
       - name: Check npm publication without publishing
-        run: npm publish --dry-run
+        # Permit checking an existing version; --dry-run still prevents publication.
+        run: npm publish --dry-run --force --loglevel=verbose
       - name: Publish to npm using OIDC
         if: github.event_name == 'push'
         run: npm publish

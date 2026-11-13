@@ -1,6 +1,10 @@
 # Changes
 
-## 1.0.0 — unreleased
+## Unreleased
+
+- Publication dry runs also work after the current version is already on npm.
+
+## 1.0.0 — 2026-11-14
 
 - TypeScript library with explicit `mode: 'static' | 'updatable'`.
 - Application-owned OpenUI execution and a specialized Telegram update client.
