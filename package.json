@@ -1,6 +1,6 @@
 {
   "name": "openui-telegram",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Compile OpenUI Lang into self-contained Telegram widgets with an application-owned runtime and transport",
   "license": "MIT",

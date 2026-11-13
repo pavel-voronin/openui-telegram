@@ -1,8 +1,9 @@
 # Changes
 
-## Unreleased
+## 1.0.1 — 2026-11-14
 
 - Publication dry runs also work after the current version is already on npm.
+- Release through GitHub Actions using npm trusted publishing.
 
 ## 1.0.0 — 2026-11-14
 
